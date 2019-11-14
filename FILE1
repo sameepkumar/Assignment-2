@@ -1,0 +1,13 @@
+<?php
+  
+$codewalltutorailarray=["eggs","bacon","hashbrown","beans","bread","redsauce"];
+$arraylenght=count($codewalltutorialarray);
+    
+
+    $i=0;
+    while($i <$arraylength)
+    {
+      echo $codewalltutorialarray[$i] ."<br />";
+      $i++;
+    }
+
