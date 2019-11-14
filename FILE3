@@ -1,0 +1,11 @@
+$foodarray =["eggs","bacon","hashbrown","beans","bread"];
+
+$i = 0;
+
+do {
+  echo $foodarray[$i] . "<br />";
+  $i++;
+  
+}
+
+while ($i < count($foodarray));
